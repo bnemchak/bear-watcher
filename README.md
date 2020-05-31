@@ -1,11 +1,9 @@
 ## Description
-Description
+Print to Dom using multiple JS pages for the first time
 
 ### Feature List
-* features
-
-<!-- ## Screenshots
-![Main View](./images/pet-adoption.png) -->
+* bootstrap form to collect information
+* prints cards containing image and name
 
 ## How To Run
 1. Clone down this repo
@@ -16,10 +14,16 @@ Description
 * [Brooke Nemchak](https://github.com/bnemchak)
 
 ## TODO/Feature Request
-- [ ] reset to all pets button
-- [ ] sort by pet gender
+- [ ] click button for attempts to catch a fish
+- [ ] click button for successfully catching a fish
+- [ ] time stamps for last attempt and last catch
+- [ ] tally of total fish caught
+- [ ] fattest bear award secton
+- [ ] two winnter if they tie
 
 code block example:
-```html
-
+```js
+import utils from "../helpers/utils.js"
+import bearData from "../helpers/data/bearData.js"
+import showBear from "./river.js"
 ```
