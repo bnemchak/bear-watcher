@@ -14,14 +14,14 @@ const makeForm = () => {
   const domString = `
   <form>
       <div class="bears"
-        <h4> To keep track of your favorite bears, submit their details in the form below!</h4>
-    <div class="form-group">
-      <input type="text" class="form-control" id="inputName" placeholder="Name of Bear">
-    </div>
-    <div class="form-group">
-      <input type="text" class="form-control" id="addImage" placeholder="Image Url">
-    </div>
-    <button id="printBears" type="button" class="btn btn-primary">Submit</button>
+            <h4> To keep track of your favorite bears, submit their details in the form below!</h4>
+        <div class="form-group">
+          <input type="text" class="form-control" id="inputName" placeholder="Name of Bear">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="addImage" placeholder="Image Url">
+        </div>
+        <button id="printBears" type="button" class="btn btn-primary">Submit</button>
   </form>
   `;
 
